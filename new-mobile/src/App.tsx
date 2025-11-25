@@ -28,14 +28,6 @@ const CONTACT_OPTIONS = [
 const WHATSAPP_ORDER_URL = "https://wa.me/56940963797";
 const WHATSAPP_OFFICIAL_GROUP = "https://chat.whatsapp.com/GeiJ73loc5vDxjwsDvc6yn";
 const WHATSAPP_COMMUNITY_GROUP = "https://chat.whatsapp.com/F9NidGY2IVI3cta46BgK2O";
-const TRANSFER_DETAILS = {
-  name: "Marcia Lorena Godoy Nahuelcheo",
-  rut: "14574080-0",
-  bank: "Banco Estado",
-  accountType: "Chequera Electrónica",
-  accountNumber: "63170240369",
-  note: "Enviar comprobante al WhatsApp oficial",
-};
 
 export default function App() {
   return (
@@ -52,7 +44,6 @@ export default function App() {
               contactAnchor="#contacto"
               officialGroupHref={WHATSAPP_OFFICIAL_GROUP}
               communityGroupHref={WHATSAPP_COMMUNITY_GROUP}
-              transferDetails={TRANSFER_DETAILS}
             />
             <GroupsSection officialLink={WHATSAPP_OFFICIAL_GROUP} communityLink={WHATSAPP_COMMUNITY_GROUP} />
             {/* 
