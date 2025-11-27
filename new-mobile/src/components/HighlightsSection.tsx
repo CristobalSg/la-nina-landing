@@ -17,7 +17,7 @@ export function HighlightsSection({ highlights }: HighlightsSectionProps) {
           ¿Por qué elegirnos? <span className="text-lime-300">💚</span>
         </h3>
         <p className="text-white/60">
-          Más de 27 años de experiencia nos respaldan
+          Más de 9 años de experiencia nos respaldan
         </p>
       </div>
 

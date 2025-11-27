@@ -42,7 +42,7 @@ export function SiteHeader({ whatsappHref, groupHref }: SiteHeaderProps) {
           rel="noreferrer"
         >
           <span className="relative z-10 flex items-center gap-2">
-            <span>👥</span>
+            <span>💬</span>
             Grupo oficial
           </span>
         </a>
