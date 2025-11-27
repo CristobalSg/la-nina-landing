@@ -15,7 +15,7 @@ export function HeroSection({
     <section className="grid gap-6 sm:gap-8 lg:gap-10 lg:items-start w-full overflow-hidden">
       <div className="space-y-6 sm:space-y-8 w-full">
         {/* Badge de ubicación con animación */}
-        <div className="flex flex-wrap gap-2 sm:gap-3 justify-center sm:justify-start px-2 sm:px-0">
+        <div className="flex flex-wrap gap-2 sm:gap-3 justify-center px-2 sm:px-0">
           <span className="inline-flex items-center gap-1.5 sm:gap-2 rounded-full border border-lime-400/30 bg-lime-400/10 px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-medium text-lime-200 animate-fade-in-up">
             <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-lime-400 animate-pulse"></span>
             <span className="whitespace-nowrap">

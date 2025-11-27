@@ -105,7 +105,7 @@ export function CarouselSection({ items }: CarouselSectionProps) {
             >
               {/* Card del slide */}
               <div
-                className={`relative overflow-hidden rounded-2xl sm:rounded-3xl border border-white/10 bg-gradient-to-br ${item.gradient} p-6 sm:p-8 lg:p-12 min-h-[400px] sm:min-h-[450px] lg:min-h-[500px] flex flex-col justify-between`}
+                className={`relative overflow-hidden rounded-2xl sm:rounded-3xl border border-white/10 bg-gradient-to-br ${item.gradient} p-6 sm:p-8 lg:p-12 px-12 sm:px-16 lg:px-20 min-h-[400px] sm:min-h-[450px] lg:min-h-[500px] flex flex-col justify-between`}
               >
                 {/* Efectos de fondo animados */}
                 <div className="absolute inset-0 opacity-30">
