@@ -42,12 +42,8 @@ export function ContactSection({ options }: ContactSectionProps) {
             🕐 Horarios de atención
           </p>
           <div className="grid grid-cols-2 gap-2 text-sm">
-            <span className="text-white/70">Lunes a Viernes:</span>
-            <span className="text-white font-medium">9:00 - 20:00</span>
-            <span className="text-white/70">Sábado:</span>
-            <span className="text-white font-medium">9:00 - 18:00</span>
-            <span className="text-white/70">Domingo:</span>
-            <span className="text-white font-medium">10:00 - 14:00</span>
+            <span className="text-white/70">Lunes a Domingo:</span>
+            <span className="text-white font-medium">8:00 AM - 23:00 PM</span>
           </div>
         </div>
 
