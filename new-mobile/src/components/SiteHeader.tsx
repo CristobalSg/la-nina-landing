@@ -5,9 +5,9 @@ type SiteHeaderProps = {
 
 export function SiteHeader({ whatsappHref, groupHref }: SiteHeaderProps) {
   return (
-    <header className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+    <header className="flex flex-col gap-6 items-center sm:flex-row sm:items-center sm:justify-between">
       {/* Logo y nombre con diseño destacado */}
-      <div className="flex items-center gap-4">
+      <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left w-full sm:w-auto">
         {/* Logo con efecto de brillo */}
         <div className="relative group">
           <div className="absolute -inset-1 bg-gradient-to-r from-lime-400 via-emerald-500 to-lime-400 rounded-2xl blur-md opacity-60 group-hover:opacity-100 transition duration-500 animate-pulse"></div>
@@ -20,21 +20,21 @@ export function SiteHeader({ whatsappHref, groupHref }: SiteHeaderProps) {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-col items-center sm:items-start">
           <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-lime-300 font-medium">
             🍋 La Nina · Desde 1998
           </p>
           <h1 className="text-2xl sm:text-4xl font-bold text-white bg-gradient-to-r from-lime-200 via-white to-emerald-200 bg-clip-text text-transparent">
             Frutería &amp; Verdulería
           </h1>
-          <p className="text-xs text-lime-100/60 mt-1 hidden sm:block">
+          <p className="text-xs text-lime-100/60 mt-1">
             Frescura y calidad en cada producto 🥬
           </p>
         </div>
       </div>
 
       {/* Botones de acción */}
-      <div className="flex items-center gap-3 flex-wrap">
+      <div className="flex items-center gap-3 flex-wrap justify-center sm:justify-end w-full sm:w-auto">
         <a
           className="group relative overflow-hidden rounded-full border-2 border-lime-300/40 px-4 py-2.5 text-sm font-semibold text-lime-100 transition-all duration-300 hover:border-lime-300 hover:shadow-lg hover:shadow-lime-500/20"
           href={groupHref}
